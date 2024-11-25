@@ -11,11 +11,11 @@ public class Main {
         UniqueWordsAndTheirCounting(words);
 
         TelephoneDirectory telephoneDirectory = new TelephoneDirectory();
-        telephoneDirectory.add(12345, "Ivan");
-        telephoneDirectory.add(321, "Vlad");
-        telephoneDirectory.add(2222, "Ivan");
+        telephoneDirectory.add(89891111111L, "Ivan");
+        telephoneDirectory.add(89892222222L, "Vlad");
+        telephoneDirectory.add(89893333333L, "Ivan");
 
-        telephoneDirectory.get("Ivan");
+        System.out.println(telephoneDirectory.get("Ivan"));
 
     }
 
